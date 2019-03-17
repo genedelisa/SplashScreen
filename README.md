@@ -3,17 +3,22 @@
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://en.wikipedia.org/wiki/MIT_License)
 [![Build Status](https://travis-ci.org/genedelisa/SplashScreen.svg)](https://travis-ci.org/genedelisa/SplashScreen)
-[![GitHub tag](https://img.shields.io/github/tag/genedelisa/splashscreen.svg)](https://github.com/genedelisa/SplashScreen/)
-[![GitHub release](https://img.shields.io/github/release/genedelisa/splashscreen.svg)](https://github.com/genedelisa/SplashScreen/)
+[![GitHub tag](https://img.shields.io/github/tag/genedelisa/SplashScreen.svg)](https://github.com/genedelisa/SplashScreen/)
+[![GitHub release](https://img.shields.io/github/release/genedelisa/SplashScreen.svg)](https://github.com/genedelisa/SplashScreen/)
 
 [![Swift 4](https://img.shields.io/badge/Swift%204-compatible-brightgreen.svg?style=flat")](https://developer.apple.com/)
+[![Platforms macOS](https://img.shields.io/badge/Platforms-macOS-lightgray.svg?style=flat)](https://www.apple.com/macos/)
+
+[![Sponsors](https://img.shields.io/badge/Sponsors-Rockhopper%20Technologies-orange.svg?style=flat)](http://www.rockhoppertech.com/)
+[![Twitter @GeneDeLisaDev](https://img.shields.io/twitter/follow/GeneDeLisaDev.svg?style=social)](https://twitter.com/GeneDeLisaDev)
+
 
 An example of a Cocoa splash screen. it would be better if you don't have one, but if you insist, here it is.
 
 
 ## Blog post for this example.
 
-[Blog post](http://www.rockhoppertech.com/blog/)
+[Blog post](http://www.rockhoppertech.com/blog/splashscreen)
 
 
 ## Bugs
