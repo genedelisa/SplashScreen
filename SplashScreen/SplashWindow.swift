@@ -1,11 +1,11 @@
 //
 // SplashScreen
-// AppDelegate.swift
+// SplashWindow.swift
 //
 // last build: macOS 10.13, Swift 4.0
 //
 // Created by Gene De Lisa on 3/17/19.
-
+ 
 //  Copyright ©(c) 2019 Gene De Lisa. All rights reserved.
 //
 //  This source code is licensed under the MIT license found in the
@@ -44,76 +44,34 @@
 //  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 //  IN THE SOFTWARE.
 //
-
-
+    
 
 import Cocoa
 
-@NSApplicationMain
-class AppDelegate: NSObject, NSApplicationDelegate {
+class SplashWindow: NSWindow {
+
     
-    var splashWindowController: SplashWindowController!
-    
-    func applicationDidFinishLaunching(_ aNotification: Notification) {
+    override init(contentRect: NSRect,
+                  styleMask style: NSWindow.StyleMask,
+                  backing backingStoreType: NSWindow.BackingStoreType,
+                  defer flag: Bool) {
         
-        NSLog("\(#function)")
-        
-        self.setupSplashScreen()
-    }
-    
-    func setupSplashScreen() {
-        NSLog("\(#function)")
-        
-        self.splashWindowController = SplashWindowController()
-        self.splashWindowController.showWindow(self)
-        
-        let operationQueue = OperationQueue()
-        
-        let startUpCompletionOperation = BlockOperation {
-            NSLog("\(#function) startup comp op")
-            OperationQueue.main.addOperation {
-                // this is on the main thread
-                self.splashWindowController.window?.close()
-                self.showMainWin()
-            }
-        }
-        
-        let startUpOperation = BlockOperation {
-            NSLog("\(#function) startup op")
-            self.doTheInitialization()
-            operationQueue.addOperation(startUpCompletionOperation)
-        }
-        startUpCompletionOperation.addDependency(startUpOperation)
-        operationQueue.addOperation(startUpOperation)
-    }
-    
-    
-    func showMainWin() {
-        NSLog("\(#function)")
-        
-        let storyboard = NSStoryboard(name: "Main", bundle: nil)
-        if let mc = storyboard.instantiateController(withIdentifier: NSStoryboard.SceneIdentifier("MainWC"))
-            as? NSWindowController,
-            let vc = storyboard.instantiateController(withIdentifier: NSStoryboard.SceneIdentifier("MainVC"))
-                as? NSViewController {
-            mc.window?.contentViewController = vc
-            mc.window?.makeKeyAndOrderFront(self)
-        }
-    }
-    
-    func doTheInitialization() {
-        NSLog("\(#function)")
-        
-        // this is not on the main thread
-        
-        // actually do the initialization here. Faking it here with the sleep
-        sleep(4)
-    }
-    
-    func applicationWillTerminate(_ aNotification: Notification) {
-        // Insert code here to tear down your application
+        super.init(contentRect: contentRect,
+                   styleMask: NSWindow.StyleMask.borderless,
+                   backing: NSWindow.BackingStoreType.buffered,
+                   defer: false)
+
+        self.appearance = NSAppearance(appearanceNamed: .vibrantDark, bundle: nil)
+        self.styleMask = .borderless
+        self.titleVisibility = .hidden
+        self.titlebarAppearsTransparent = true
+        self.isMovableByWindowBackground = false
+        self.level = .modalPanel
+        self.alphaValue = 0.6
+        self.backgroundColor = NSColor.black
+        self.hasShadow = true
+
     }
     
     
 }
-

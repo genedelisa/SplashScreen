@@ -1,17 +1,14 @@
-#SplashScreen
+# SplashScreen
 
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://en.wikipedia.org/wiki/MIT_License)
-[![Build Status](https://travis-ci.org/genedelisa/TableBinding.svg)](https://travis-ci.org/genedelisa/SplashScreen)
-[![GitHub tag](https://img.shields.io/github/tag/genedelisa/tablebinding.svg)](https://github.com/genedelisa/SplashScreen/)
-[![GitHub release](https://img.shields.io/github/release/genedelisa/tablebinding.svg)](https://github.com/genedelisa/SplashScreen/)
+[![Build Status](https://travis-ci.org/genedelisa/SplashScreen.svg)](https://travis-ci.org/genedelisa/SplashScreen)
+[![GitHub tag](https://img.shields.io/github/tag/genedelisa/splashscreen.svg)](https://github.com/genedelisa/SplashScreen/)
+[![GitHub release](https://img.shields.io/github/release/genedelisa/splashscreen.svg)](https://github.com/genedelisa/SplashScreen/)
 
-
-[![C++](https://img.shields.io/badge/C%2B%2B-compatible-brightgreen.svg?style=flat")](https://developer.apple.com/)
-[![Objective-C](https://img.shields.io/badge/Objective--C-compatible-brightgreen.svg?style=flat")](https://developer.apple.com/documentation/objectivec)
 [![Swift 4](https://img.shields.io/badge/Swift%204-compatible-brightgreen.svg?style=flat")](https://developer.apple.com/)
 
-An example using
+An example of a Cocoa splash screen. it would be better if you don't have one, but if you insist, here it is.
 
 
 ## Blog post for this example.
@@ -22,7 +19,7 @@ An example using
 ## Bugs
 
 
-[![GitHub issues](https://img.shields.io/github/issues/genedelisa/tablebinding.svg)](https://github.com/genedelisa/SplashScreen/issues)
+[![GitHub issues](https://img.shields.io/github/issues/genedelisa/splashscreen.svg)](https://github.com/genedelisa/SplashScreen/issues)
 
 If you find one, [please add it to issues](https://github.com/genedelisa/SplashScreen/issues)
 

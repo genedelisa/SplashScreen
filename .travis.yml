@@ -1,7 +1,8 @@
 # file: .travis.yml
 language: objective-c
-osx_image: xcode6.4
+osx_image: xcode10.1
 xcode_project: SplashScreen
+platform=macOS
 
 before_install:
 - brew update
@@ -10,7 +11,7 @@ before_install:
 
 script:
 
-- xctool -project SplashScreen.xcodeproj  -scheme "SplashScreen" -sdk macosx10.10 -configuration Debug -destination "platform=OS X" -PBXBuildsContinueAfterErrors=0 test | xcpretty -c
+- xctool -project SplashScreen.xcodeproj  -scheme "SplashScreen" -sdk macosx10.13 -configuration Debug -destination "platform=OS X" -PBXBuildsContinueAfterErrors=0 test | xcpretty -c
 
 
 # http://docs.travis-ci.com/user/languages/objective-c/

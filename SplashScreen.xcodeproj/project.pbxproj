@@ -7,30 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B0D9546C223E9CF700DE1257 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D9546B223E9CF700DE1257 /* AppDelegate.swift */; };
 		B0D9546E223E9CF700DE1257 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D9546D223E9CF700DE1257 /* ViewController.swift */; };
 		B0D95471223E9CF700DE1257 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B0D95470223E9CF700DE1257 /* README.md */; };
 		B0D95473223E9CF700DE1257 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B0D95472223E9CF700DE1257 /* LICENSE */; };
-		B0D95475223E9CF700DE1257 /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = B0D95474223E9CF700DE1257 /* Credits.html */; };
 		B0D95477223E9CF700DE1257 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B0D95476223E9CF700DE1257 /* .gitignore */; };
 		B0D95479223E9CF700DE1257 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = B0D95478223E9CF700DE1257 /* .travis.yml */; };
 		B0D9547B223E9CF800DE1257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0D9547A223E9CF800DE1257 /* Assets.xcassets */; };
 		B0D9547E223E9CF800DE1257 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0D9547C223E9CF800DE1257 /* Main.storyboard */; };
+		B0D9548C223E9D1C00DE1257 /* SplashWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D95487223E9D1C00DE1257 /* SplashWindowController.swift */; };
+		B0D9548D223E9D1C00DE1257 /* SplashWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0D95488223E9D1C00DE1257 /* SplashWindowController.xib */; };
+		B0D9548E223E9D1C00DE1257 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D95489223E9D1C00DE1257 /* MainWindowController.swift */; };
+		B0D9548F223E9D1C00DE1257 /* SplashWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D9548A223E9D1C00DE1257 /* SplashWindow.swift */; };
+		B0D95491223E9D6F00DE1257 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D95490223E9D6F00DE1257 /* AppDelegate.swift */; };
+		B0D95494223EA24400DE1257 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B0D95493223EA24400DE1257 /* Credits.rtf */; };
+		B0D9549C223EA7F600DE1257 /* Gemfile in Resources */ = {isa = PBXBuildFile; fileRef = B0D95498223EA7F500DE1257 /* Gemfile */; };
+		B0D954A1223EA8AD00DE1257 /* .jazzy.yaml in Resources */ = {isa = PBXBuildFile; fileRef = B0D9549E223EA8AD00DE1257 /* .jazzy.yaml */; };
+		B0D954A2223EA8AD00DE1257 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = B0D9549F223EA8AD00DE1257 /* .swiftlint.yml */; };
+		B0D954A3223EA8AD00DE1257 /* .swift-version in Resources */ = {isa = PBXBuildFile; fileRef = B0D954A0223EA8AD00DE1257 /* .swift-version */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B0D95468223E9CF700DE1257 /* SplashScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplashScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0D9546B223E9CF700DE1257 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0D9546D223E9CF700DE1257 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B0D95470223E9CF700DE1257 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B0D95472223E9CF700DE1257 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		B0D95474223E9CF700DE1257 /* Credits.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = Credits.html; sourceTree = "<group>"; };
 		B0D95476223E9CF700DE1257 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
 		B0D95478223E9CF700DE1257 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; name = .travis.yml; path = ../.travis.yml; sourceTree = "<group>"; };
 		B0D9547A223E9CF800DE1257 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0D9547D223E9CF800DE1257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0D9547F223E9CF800DE1257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0D95480223E9CF800DE1257 /* SplashScreen.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SplashScreen.entitlements; sourceTree = "<group>"; };
+		B0D95487223E9D1C00DE1257 /* SplashWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashWindowController.swift; sourceTree = "<group>"; };
+		B0D95488223E9D1C00DE1257 /* SplashWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashWindowController.xib; sourceTree = "<group>"; };
+		B0D95489223E9D1C00DE1257 /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		B0D9548A223E9D1C00DE1257 /* SplashWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashWindow.swift; sourceTree = "<group>"; };
+		B0D95490223E9D6F00DE1257 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0D95493223EA24400DE1257 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		B0D95498223EA7F500DE1257 /* Gemfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
+		B0D9549E223EA8AD00DE1257 /* .jazzy.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .jazzy.yaml; sourceTree = SOURCE_ROOT; };
+		B0D9549F223EA8AD00DE1257 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
+		B0D954A0223EA8AD00DE1257 /* .swift-version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".swift-version"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +79,10 @@
 		B0D9546A223E9CF700DE1257 /* SplashScreen */ = {
 			isa = PBXGroup;
 			children = (
-				B0D9546B223E9CF700DE1257 /* AppDelegate.swift */,
+				B0D95490223E9D6F00DE1257 /* AppDelegate.swift */,
+				B0D95489223E9D1C00DE1257 /* MainWindowController.swift */,
 				B0D9546D223E9CF700DE1257 /* ViewController.swift */,
-				B0D95474223E9CF700DE1257 /* Credits.html */,
+				B0D95492223EA03300DE1257 /* Splash */,
 				B0D9547A223E9CF800DE1257 /* Assets.xcassets */,
 				B0D9547C223E9CF800DE1257 /* Main.storyboard */,
 				B0D9547F223E9CF800DE1257 /* Info.plist */,
@@ -78,12 +95,27 @@
 		B0D9546F223E9CF700DE1257 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B0D9549E223EA8AD00DE1257 /* .jazzy.yaml */,
+				B0D954A0223EA8AD00DE1257 /* .swift-version */,
+				B0D9549F223EA8AD00DE1257 /* .swiftlint.yml */,
+				B0D95498223EA7F500DE1257 /* Gemfile */,
+				B0D95493223EA24400DE1257 /* Credits.rtf */,
 				B0D95470223E9CF700DE1257 /* README.md */,
 				B0D95472223E9CF700DE1257 /* LICENSE */,
 				B0D95476223E9CF700DE1257 /* .gitignore */,
 				B0D95478223E9CF700DE1257 /* .travis.yml */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0D95492223EA03300DE1257 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				B0D9548A223E9D1C00DE1257 /* SplashWindow.swift */,
+				B0D95487223E9D1C00DE1257 /* SplashWindowController.swift */,
+				B0D95488223E9D1C00DE1257 /* SplashWindowController.xib */,
+			);
+			name = Splash;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,6 +125,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0D95483223E9CF800DE1257 /* Build configuration list for PBXNativeTarget "SplashScreen" */;
 			buildPhases = (
+				B0D95495223EA74D00DE1257 /* Swiftlint Script */,
 				B0D95464223E9CF700DE1257 /* Sources */,
 				B0D95465223E9CF700DE1257 /* Frameworks */,
 				B0D95466223E9CF700DE1257 /* Resources */,
@@ -144,25 +177,54 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0D9549C223EA7F600DE1257 /* Gemfile in Resources */,
 				B0D9547E223E9CF800DE1257 /* Main.storyboard in Resources */,
+				B0D95494223EA24400DE1257 /* Credits.rtf in Resources */,
 				B0D95479223E9CF700DE1257 /* .travis.yml in Resources */,
+				B0D954A3223EA8AD00DE1257 /* .swift-version in Resources */,
+				B0D954A1223EA8AD00DE1257 /* .jazzy.yaml in Resources */,
+				B0D9548D223E9D1C00DE1257 /* SplashWindowController.xib in Resources */,
 				B0D95477223E9CF700DE1257 /* .gitignore in Resources */,
 				B0D95473223E9CF700DE1257 /* LICENSE in Resources */,
-				B0D95475223E9CF700DE1257 /* Credits.html in Resources */,
 				B0D9547B223E9CF800DE1257 /* Assets.xcassets in Resources */,
 				B0D95471223E9CF700DE1257 /* README.md in Resources */,
+				B0D954A2223EA8AD00DE1257 /* .swiftlint.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B0D95495223EA74D00DE1257 /* Swiftlint Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Swiftlint Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "swiftlint\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B0D95464223E9CF700DE1257 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0D9548F223E9D1C00DE1257 /* SplashWindow.swift in Sources */,
 				B0D9546E223E9CF700DE1257 /* ViewController.swift in Sources */,
-				B0D9546C223E9CF700DE1257 /* AppDelegate.swift in Sources */,
+				B0D9548C223E9D1C00DE1257 /* SplashWindowController.swift in Sources */,
+				B0D95491223E9D6F00DE1257 /* AppDelegate.swift in Sources */,
+				B0D9548E223E9D1C00DE1257 /* MainWindowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
